@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados pela aplicacao
+uploads/
+transcricoes/
+
+# Videos, audios e transcricoes sensiveis
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v
+*.wmv
+*.flv
+*.mpeg
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.srt
+
+# Dados exportados ou temporarios
+*.log
+*.tmp
+*.temp
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
